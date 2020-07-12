@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+   <head>
+   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta charset="utf-8">
+     
+      <link rel="stylesheet" href="css/style.css"></link>
+      <link rel="stylesheet" href="css/tabsy.css"></link>
+      <title>todo Listo</title>
+   </head>
+  <body>
+  <div id="form-space">
+   <form id="add-todo">
+   
+      <div class="line">          
+      <div class="col-label-f">
+         <label for="thing">Thing to Do</label>
+      </div>                      
+      <div class="col-input-f">
+         <input type="text" name="thing" class="text-form">
+      </div>                     
+      </div>
+      
+      <div class="line">          
+      <div class="col-label-f">
+         <label for="dead-line">Dead Line</label>
+      </div>                      
+      <div class="col-input-f">
+         <input type="date" name="dead-line">
+      </div>                     
+      </div>
+      
+      <div class="line">          
+      <div class="col-label-f">
+         <label for="reason">Reason?</label>
+       </div>                      
+      <div class="col-input-f">        
+         <input type="text" name="reason" class="text-form">
+      </div>                     
+      </div>        
+      
+      <div class="line">          
+      <div class="col-label-f">
+      <label for="importance">Importance</label>
+      </div>                      
+      <div class="col-input-f">
+         <select type="text"  name="importance">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+         </select>
+      </div>                     
+      </div>   
+      
+      <div class="line">          
+      <div class="col-label-f">
+         <label for="notes">Notes</label>
+      </div>                      
+      <div class="col-input-f">
+         <textarea name="notes" class="text-form"style="height:auto;"></textarea>
+      </div>                     
+      </div>   
+      <div id="boton-container-f">
+      <input type="submit" class="boton" value="Add"></input>          
+      <button id="cancel" class="boton">Cancel</button>
+       </div>
+   </form>
+  </div>
+    <div id="content">
+    <h1 class="explain" id="title">To Do List!</h1>
+      <p class="explain">
+         Click Add, to create a card entry, 
+         once you create it, you can click on the entry
+         to see more details or edit stuff!
+         You can also remove an entry by clicking on "Delete."
+      </p>
+      <button class="botonc" id="add">Add</button>
+      <div id="tab-container">
+      <p class="tab tab-toggled"id="high">High Importance</p>
+      <p class="tab"id="med">Medium Importance</p>
+      <p class="tab"id="low">Low Importance</p>
+      </div>
+    </div>
+  <script src="main.js" chartset="utf-8"> </script>
+</body>
+   
+</html>
+
+
+        
