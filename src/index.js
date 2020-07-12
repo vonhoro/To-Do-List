@@ -6,7 +6,7 @@ import {createElement,listElement,bigCardStructure,miniCardColor,miniCardDeadLin
 const Content =  document.getElementById('content');
 
 const Todo =  document.getElementById('add-todo');
-Todo.addEventListener('submit', Formula);
+Todo.addEventListener('submit',Formula);
 
 const Boton = document.getElementsByClassName('botonc')[0];
 Boton.addEventListener('click',()=>{
